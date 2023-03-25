@@ -1,0 +1,166 @@
+h1 {
+  font-family: sans-serif;
+}
+
+
+.form-div {
+  background-color: mediumpurple;
+  padding: 10px;
+  height: 306px;
+  width: 410px;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+.form-div-error {
+  background-color: darkgray;
+  padding: 10px;
+  height: 306px;
+  width: 410px;
+  border-radius: 15px;
+  border: 2px solid red;
+}
+
+h2 {
+  font-family: sans-serif;
+  color: black;
+  font-weight: 200;
+}
+
+::placeholder {
+  color: gray;
+  text-align: start;
+  padding-left: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.input-normal {
+  width: 200px;
+  height: 30px;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+  /* margin-left: 5px; */
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.input-error-name {
+  width: 200px;
+  height: 30px;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid red;
+}
+.input-error-email {
+  width: 200px;
+  height: 30px;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid red;
+}
+.input-error-phone {
+  width: 200px;
+  height: 30px;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid red;
+}
+
+.error-text {
+  height: 2px;
+  font-size: -2px;
+  margin: -5px;
+  font-size: revert;
+  margin-top: -8px;
+  margin-right: 68px;
+  margin-bottom: 5px;
+  color: red;
+}
+
+.error-text-phone {
+  height: 2px;
+  font-size: -2px;
+  margin: -5px;
+  font-size: revert;
+  margin-top: -8px;
+  margin-right: 44px;
+  margin-bottom: 5px;
+  color: red;
+}
+
+.add-btn {
+  width: 120px;
+  height: 30px;
+  background-color: forestgreen;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+.edit-btn {
+  width: 120px;
+  height: 30px;
+  background-color: forestgreen;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.update-btn {
+  width: 120px;
+  height: 30px;
+  background-color: orange;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+table,
+thead,
+tr,
+td {
+  border: 1px solid black;
+}
+
+thead {
+  background-color: chocolate;
+}
+
+.edit-btn {
+  width: 85px;
+  height: 24px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-left: 2px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  width: 85px;
+  height: 24px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-right: 2px;
+  cursor: pointer;
+}
